@@ -4,10 +4,9 @@
 
 * {
     margin: 0;
-    
     border: none;
     box-sizing: border-box;
-    list-style: none;
+    
 
 }
 
@@ -242,12 +241,13 @@ body {
 }
 
 
-.PROJECTS {
-    display: block;
-    list-style-type: square;
-    margin-top: 1em;
-    margin-bottom: 1 em;
-    margin-left: 0;
-    margin-right: 0;
-    padding-left: 40px;
+
+  .li-projects {
+    padding-top: 20px;
+    padding-bottom: 13px;;
+    list-style-type: disc;
+    line-height: 1.6rem;
+    color: #2D9CDB;
+    font-size: 1.1rem;
   }
+
